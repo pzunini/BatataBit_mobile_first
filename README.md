@@ -1,2 +1,2 @@
 # BatataBit
-A website for mobile architecture and design practice 
+A cryptocurrency landing page project for mobile architecture and design practice 
