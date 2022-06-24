@@ -1,2 +1,2 @@
 # BatataBit
-A website to practice mobile architecture and design
+A website for mobile architecture and design practice 
