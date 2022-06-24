@@ -1,2 +1,2 @@
-# BatataBit_mobile_first
-A mobile-first website
+# BatataBit
+A website to practice mobile architecture and design
