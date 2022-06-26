@@ -113,3 +113,9 @@ header figure img {
 }
 /* header ends */
 
+main {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background-color: var(--off-white);
+}
