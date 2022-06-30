@@ -162,3 +162,53 @@ main {
   color: var(--soft-grey);
 }
 
+/* cryptocurrencies sub-section */
+.main__currency-table {
+  width: 80%;
+  min-width: 225px; /*70% * 320px */
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: 'Inter', 'sans-serif';
+}
+
+.main__currency-table .currency-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: var(--size-700);
+  line-height: 2.3rem;
+  color: var(--bitcoin-orange);
+}
+
+.main__currency-table .currency-table {
+  width: 90%;
+  min-width: 225px;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.main__currency-table table {
+  width: 100%;
+  height: 100%;
+}
+
+.main__currency-table td {
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: var(--size-500);
+  line-height: 1.9rem;
+  color: var(--soft-grey);
+  background-color: var(--just-white);
+}
+
+
+
+
+/*
+cryto icons urls for table
+bitcoin: https: //assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579
+Ethereum: https: //assets.coingecko.com/coins/images/279/thumb/ethereum.png?1595348880
+Cardano: https: //assets.coingecko.com/coins/images/975/thumb/cardano.png?1547034860
+Matic: https: //assets.coingecko.com/coins/images/4713/thumb/matic-token-icon.png?1624446912
+*/
