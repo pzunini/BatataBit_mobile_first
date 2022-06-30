@@ -162,7 +162,7 @@ main {
   color: var(--soft-grey);
 }
 
-/* cryptocurrencies sub-section */
+/* cryptocurrencies sub-section table*/
 .main__currency-table {
   width: 80%;
   min-width: 225px; /*70% * 320px */
@@ -195,13 +195,30 @@ main {
 
 .main__currency-table td {
   width: 50%;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: var(--size-500);
   line-height: 1.9rem;
   color: var(--soft-grey);
   background-color: var(--just-white);
 }
 
+
+
+.main__currency-table .table__top-left {
+  border-radius: 12px 0 0 0;
+}
+
+.main__currency-table .table__top-right {
+  border-radius: 0 12px 0 0;
+}
+
+.main__currency-table .table__bottom-left {
+  border-radius: 0 0 0 12px;
+}
+
+.main__currency-table .table__bottom-right {
+  border-radius: 0 0 12px 0;
+}
 
 
 
