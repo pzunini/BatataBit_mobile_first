@@ -164,7 +164,7 @@ main {
 
 /* cryptocurrencies sub-section table*/
 .main__currency-table {
-  width: 80%;
+  width: 90%;
   min-width: 225px; /*70% * 320px */
   max-width: 500px;
   height: 360px;
@@ -202,6 +202,33 @@ main {
   background-color: var(--just-white);
 }
 
+.main__currency-table .table__right {
+  line-height: 1.6rem;
+}
+
+.main__currency-table .table__left img {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.main__currency-table .trend__down {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-left: 10px;
+  background-image: url('../assets/icons/trending-down.svg');
+}
+
+.main__currency-table .trend__up {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-left: 10px;
+  background-image: url('../assets/icons/trending-up.svg');
+}
+
+
 
 
 .main__currency-table .table__top-left {
@@ -219,13 +246,3 @@ main {
 .main__currency-table .table__bottom-right {
   border-radius: 0 0 12px 0;
 }
-
-
-
-/*
-cryto icons urls for table
-bitcoin: https: //assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579
-Ethereum: https: //assets.coingecko.com/coins/images/279/thumb/ethereum.png?1595348880
-Cardano: https: //assets.coingecko.com/coins/images/975/thumb/cardano.png?1547034860
-Matic: https: //assets.coingecko.com/coins/images/4713/thumb/matic-token-icon.png?1624446912
-*/
