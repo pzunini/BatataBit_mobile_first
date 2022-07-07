@@ -214,7 +214,7 @@ main {
 .main__currency-table .table__left img {
   width: 16px;
   height: 16px;
-  margin-left: 20px;
+  margin-left: 16px;
   margin-right: 10px;
 }
 
@@ -236,4 +236,21 @@ main {
 
 .main__currency-table .trend__up {
   background-image: url('../assets/icons/trending-up.svg');
+}
+
+.main__currency-table--date {
+  width: max-content;
+  height: 24px;
+  margin: 10px auto 0;
+  padding: 4px;
+  background-color: var(--soft-orange);
+  border-radius: 6px;
+}
+
+.main__currency-table--date p {
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: var(--warm-black);
+  font-weight: var(--size-700);
 }
