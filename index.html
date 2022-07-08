@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>BatataBit Exchange</title>
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,40 +24,43 @@
   </header>
   <main>
     <section class="main__exchange-container">
+
       <div class="background-img"></div>
       <div class="main__exchange-container--title">
         <h2>We make all exchange rates visible</h2>
         <p>We bring real time information of the most important exchange and currencies in the world.</p>
       </div>
-      <section class="main__currency-container">
-        <div class="main__currency-table">
-          <p class="currency-title">Cryptocurrencies</p>
-          <div class="currency-table">
+
+      <!--crypto prices table-->
+      <section class="main__currencies-container">
+        <div class="main__data-table">
+          <p class="table__title currency-title">Cryptocurrencies</p>
+          <div class="table__data">
             <table>
               <tr>
-                <td class="table__left table__top-left">
+                <td class="table__left">
                   <div>
-                    <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Bitcon icon">
+                    <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Bitcon logo">
                     <span>Bitcoin</span>
                   </div>
                 </td>
-                <td class="table__right table__top-right">$21389.28
+                <td class="table__right">$21389.28
                   <span class="trending trend__up"></span></td>
               </tr>
               <tr>
                 <td class="table__left">
                   <div>
-                    <img src="https://assets.coingecko.com/coins/images/279/thumb/ethereum.png?1595348880" alt="Ethereum icon">
+                    <img src="https://assets.coingecko.com/coins/images/279/thumb/ethereum.png?1595348880" alt="Ethereum logo">
                     <span>Ethereum</span>
                   </div>
                 </td>
                 <td class="table__right">$1242.70
-                  <span class=" trending trend__down"></span></td>
+                  <span class="trending trend__down"></span></td>
               </tr>
               <tr>
                 <td class="table__left">
                   <div>
-                    <img src="https://assets.coingecko.com/coins/images/975/thumb/cardano.png?1547034860" alt="Cardano icon">
+                    <img src="https://assets.coingecko.com/coins/images/975/thumb/cardano.png?1547034860" alt="Cardano logo">
                     <span>Cardano</span>
                   </div>
                 </td>
@@ -65,18 +68,76 @@
                   <span class="trending trend__up"></span></td>
               </tr>
               <tr>
-                <td class="table__left table__bottom-left">
+                <td class="table__left">
                   <div>
-                    <img src="https://assets.coingecko.com/coins/images/4713/thumb/matic-token-icon.png?1624446912" alt="Matic icon">
+                    <img src="https://assets.coingecko.com/coins/images/4713/thumb/matic-token-icon.png?1624446912" alt="Matic logo">
                     <span>Polygon</span>
                   </div>
                 </td>
-                <td class="table__right table__bottom-right">$0.598653
+                <td class="table__right">$0.598653
                   <span class="trending trend__down"></span></td>
               </tr>
             </table>
           </div>
           <div class="main__currency-table--date">
+            <p>Updated on 07/07/2022 @ 20:00h</p>
+          </div>
+        </div>
+      </section>
+
+      <!--commissions table-->
+      <section class="main__commissions-container">
+        <div class="main__data-table">
+          <p class="table__title commissions-title">Commissions</p>
+          <div class="table__data">
+            <table>
+              <tr>
+                <td class="table__left">
+                  <div>
+                    <img src="./assets/icons/batata.svg" alt="batatabit logo">
+                    <span>BatataBit</span>
+                  </div>
+                </td>
+                <td class="table__rightt">0.0001 BTC
+                </td>
+              </tr>
+              <tr>
+                <td class="table__left">
+                  <div>
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2018%2F04%2FBinance_logo_coin-136x136.png&f=1&nofb=1" alt="binance logo">
+                    <span>Binance</span>
+                  </div>
+                </td>
+                <td class="table__right">0.0005 BTC
+                  <span class=""></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__left">
+                  <div>
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcryptologos.cc%2Flogos%2Fftx-token-ftt-logo.png&f=1&nofb=1" alt="FTX logo">
+                    <span>FTX</span>
+                  </div>
+                </td>
+                <td class="table__right">0.0003 BTC
+                  <span class=""></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__left">
+                  <div>
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Fblockchain-classic%2F256%2FKuCoin_Shares-512.png&f=1&nofb=1"
+                      alt="KuCoin logo">
+                    <span>KuCoin</span>
+                  </div>
+                </td>
+                <td class="table__right">0.0003 BTC
+                  <span class=""></span>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="main__commissions-table--date">
             <p>Updated on 07/07/2022 @ 20:00h</p>
           </div>
         </div>
