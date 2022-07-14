@@ -334,7 +334,7 @@ They are the same layout but with minor differences.
   width: 90%;
   min-width: 288px;
   max-width: 400px;
-  height: 150px;
+  min-height: 150px;
   margin: 14px auto;
   padding: 14px;
   background-color: var(--black);
@@ -382,3 +382,34 @@ They are the same layout but with minor differences.
 .product-card .check-icon {
   background-image: url('../assets/icons/check-circle.svg');
 }
+/* product benefits ends*/
+
+
+/* picture section */
+.main__img-container {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: 60vh;
+  text-align: center;
+}
+
+.bitcoin-img img {
+  width: 100%;
+  display: block;
+}
+
+.main__img-container h3 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-top: 80px;
+  font-size: 3.0rem;
+  font-weight: var(--size-500);
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+
+
+/* picture section ends*/
