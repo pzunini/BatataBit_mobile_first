@@ -330,7 +330,7 @@ They are the same layout but with minor differences.
   color: var(--grey);
 }
 
-.product-card--box {
+.product-card {
   width: 90%;
   min-width: 288px;
   max-width: 400px;
@@ -342,7 +342,7 @@ They are the same layout but with minor differences.
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.product-card--box .icon-card {
+.product-card .icon-card {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -352,6 +352,33 @@ They are the same layout but with minor differences.
   background-repeat: no-repeat;
 }
 
-.clock-icon {
+.product-card--title {
+  margin-bottom: 16px;
+  font-size: 1.8rem;
+  font-weight: var(--size-500);
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.product-card--body {
+  font-size: 1.4rem;
+  font-weight: var(--size-500);
+  line-height: 1.8rem;
+  color: var(--grey);
+}
+
+.product-card .clock-icon {
   background-image: url('../assets/icons/clock.svg');
+}
+
+.product-card .eye-icon {
+  background-image: url('../assets/icons/eye.svg');
+}
+
+.product-card .dolar-icon {
+  background-image: url('../assets/icons/dollar-sign.svg');
+}
+
+.product-card .check-icon {
+  background-image: url('../assets/icons/check-circle.svg');
 }
