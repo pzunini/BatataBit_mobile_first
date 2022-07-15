@@ -38,6 +38,7 @@ html {
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
   font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* header */
@@ -390,8 +391,10 @@ They are the same layout but with minor differences.
   position: relative;
   width: 100%;
   min-width: 320px;
-  height: 60vh;
   text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bitcoin-img img {
@@ -399,17 +402,24 @@ They are the same layout but with minor differences.
   display: block;
 }
 
-.main__img-container h3 {
+.main__img-container h2 {
   position: absolute;
-  top: 0;
   width: 100%;
+  top: 0;
   padding-top: 80px;
   font-size: 3.0rem;
   font-weight: var(--size-500);
   line-height: 2.6rem;
   color: var(--just-white);
 }
-
-
-
 /* picture section ends*/
+
+/* pricing section */
+.main__plans-container {
+  width: 100%;
+  min-width: 320px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+/* pricing section ends*/
