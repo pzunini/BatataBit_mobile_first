@@ -448,8 +448,8 @@ They are the same layout but with minor differences.
 
 .plans-container--card {
   position: relative;
-  width: 66%;
-  min-width: 212px;
+  width: 60%;
+  min-width: 192px;
   max-width: 320px;
   height: 250px;
   margin: 50px auto 0;
@@ -465,7 +465,7 @@ They are the same layout but with minor differences.
   height: 32px;
   top: -16px;
   left: calc(50% - 60px);
-  line-height: 32px; /*for center one line text*/
+  line-height: 32px; /*for center one word text*/
   font-size: 1.4rem;
   color: var(--just-white);
   background-color: var(--bitcoin-orange);
@@ -473,7 +473,7 @@ They are the same layout but with minor differences.
 }
 
 .plan-card--title {
-  padding-top: 30px;
+  padding-top: 40px;
   font-size: 1.4rem;
   font-weight: var(--size-500);
   line-height: 1.8rem;
@@ -484,12 +484,39 @@ They are the same layout but with minor differences.
   padding: 6px 0;
   font-size: 5.2rem;
   font-weight: var(--size-700);
-  line-height: 6.2rem;
+  line-height: 5.2rem;
   color: var(--black);
 }
 
 .plan-card--price sup {
   font-size: 2.0rem;
+}
+
+.plan-card--saving {
+  font-size: 1.2rem;
+  color: var(--soft-grey);
+}
+
+.plan-card--action {
+  width: 150px;
+  height: 48px;
+  margin-top: 35px;
+  font-size: 1.4rem;
+  font-weight: var(--size-700);
+  line-height: 2.0rem;
+  color: var(--black);
+  background-color: var(--off-white);
+  border: 2px solid var(--bitcoin-orange);
+  border-radius: 4px;
+}
+
+.plan-card--action span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  background-image: url('../assets/icons/orange-right-arrow.svg');
+  vertical-align: text-bottom;
 }
 
 /* pricing section ends*/
