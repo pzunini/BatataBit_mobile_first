@@ -297,7 +297,7 @@ They are the same layout but with minor differences.
   background-color: var(--warm-black);
 }
 
-.product-detail-batata--logo {
+.product-detail--logo {
   position: absolute;
   width: 40px;
   height: 25px;
@@ -446,7 +446,7 @@ They are the same layout but with minor differences.
   color: var(--soft-grey);
 }
 
-.plans-container-card {
+.plans-container--card {
   position: relative;
   width: 66%;
   min-width: 212px;
@@ -459,6 +459,37 @@ They are the same layout but with minor differences.
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.2);
 }
 
+.plans-recommended {
+  position: absolute;
+  width: 120px;
+  height: 32px;
+  top: -16px;
+  left: calc(50% - 60px);
+  line-height: 32px; /*for center one line text*/
+  font-size: 1.4rem;
+  color: var(--just-white);
+  background-color: var(--bitcoin-orange);
+  border-radius: 4px;
+}
 
+.plan-card--title {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: var(--size-500);
+  line-height: 1.8rem;
+  color: var(--black);
+}
+
+.plan-card--price {
+  padding: 6px 0;
+  font-size: 5.2rem;
+  font-weight: var(--size-700);
+  line-height: 6.2rem;
+  color: var(--black);
+}
+
+.plan-card--price sup {
+  font-size: 2.0rem;
+}
 
 /* pricing section ends*/
