@@ -17,6 +17,7 @@ CSS rules order:
   /* Colors */
   --background: #E5E5E5;
   --bitcoin-orange: #F7931A;
+  --gold: #FFD700;
   --soft-orange: #FFE9D5;
   --secondary-blue: #1A9AF7;
   --soft-blue: #E7F5FF;
@@ -468,8 +469,19 @@ They are the same layout but with minor differences.
   line-height: 32px; /*for center one word text*/
   font-size: 1.4rem;
   color: var(--just-white);
-  background-color: var(--bitcoin-orange);
   border-radius: 4px;
+}
+
+.basic-plan {
+  background-color: var(--secondary-blue);
+}
+
+.recommended-plan {
+  background-color: var(--bitcoin-orange);
+}
+
+.exclusive-plan {
+  background-color: var(--gold);
 }
 
 .plan-card--title {
@@ -495,19 +507,33 @@ They are the same layout but with minor differences.
 .plan-card--saving {
   font-size: 1.2rem;
   color: var(--soft-grey);
+  margin-bottom: 35px;
 }
 
 .plan-card--action {
   width: 150px;
   height: 48px;
-  margin-top: 35px;
   font-size: 1.4rem;
   font-weight: var(--size-700);
   line-height: 2.0rem;
-  color: var(--black);
   background-color: var(--off-white);
-  border: 2px solid var(--bitcoin-orange);
+  border: 2px solid;
   border-radius: 4px;
+}
+
+.buy-basic-button {
+  border-color: var(--secondary-blue);
+  color: var(--secondary-blue);
+}
+
+.buy-recommended-button {
+  border-color: var(--bitcoin-orange);
+  color: var(--bitcoin-orange);
+}
+
+.buy-exclusive-button {
+  border-color: var(--gold);
+  color: var(--gold);
 }
 
 .plan-card--action span {
