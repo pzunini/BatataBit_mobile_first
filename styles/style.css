@@ -17,7 +17,7 @@ CSS rules order:
   /* Colors */
   --background: #E5E5E5;
   --bitcoin-orange: #F7931A;
-  --gold: #FFD700;
+  --green: #14AA78;
   --soft-orange: #FFE9D5;
   --secondary-blue: #1A9AF7;
   --soft-blue: #E7F5FF;
@@ -447,17 +447,45 @@ They are the same layout but with minor differences.
   color: var(--soft-grey);
 }
 
+.plans-container--slider {
+  display: flex;
+  height: 320px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.plans-container--slider::-webkit-scrollbar {
+  height: 3px;
+}
+
+.plans-container--slider::-webkit-scrollbar-thumb {
+  background-color: var(--bitcoin-orange);
+}
+
 .plans-container--card {
   position: relative;
+  scroll-snap-align: center;
   width: 60%;
   min-width: 192px;
   max-width: 320px;
   height: 250px;
-  margin: 50px auto 0;
+  margin: 50px 16px 0;
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 16px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.2);
+}
+
+.plans-container--card .right-arrow {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  background-image: url("../assets/icons/right-arrow.svg");
+  background-repeat: no-repeat;
+  color: #ff0055;
 }
 
 .plans-recommended {
@@ -481,7 +509,7 @@ They are the same layout but with minor differences.
 }
 
 .exclusive-plan {
-  background-color: var(--gold);
+  background-color: var(--green);
 }
 
 .plan-card--title {
@@ -511,7 +539,7 @@ They are the same layout but with minor differences.
 }
 
 .plan-card--action {
-  width: 150px;
+  width: 128px;
   height: 48px;
   font-size: 1.4rem;
   font-weight: var(--size-700);
@@ -532,9 +560,10 @@ They are the same layout but with minor differences.
 }
 
 .buy-exclusive-button {
-  border-color: var(--gold);
-  color: var(--gold);
+  border-color: var(--green);
+  color: var(--green);
 }
+
 
 .plan-card--action span {
   display: inline-block;
