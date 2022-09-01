@@ -470,22 +470,11 @@ They are the same layout but with minor differences.
   min-width: 192px;
   max-width: 320px;
   height: 250px;
-  margin: 50px 16px 0;
+  margin: 50px 12px 0;
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 16px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.2);
-}
-
-.plans-container--card .right-arrow {
-  position: absolute;
-  left: 15px;
-  top: 50%;
-  width: 24px;
-  height: 24px;
-  background-image: url("../assets/icons/right-arrow.svg");
-  background-repeat: no-repeat;
-  color: #ff0055;
 }
 
 .plans-recommended {
@@ -564,7 +553,6 @@ They are the same layout but with minor differences.
   color: var(--green);
 }
 
-
 .plan-card--action span {
   display: inline-block;
   width: 20px;
@@ -573,5 +561,34 @@ They are the same layout but with minor differences.
   background-image: url('../assets/icons/orange-right-arrow.svg');
   vertical-align: text-bottom;
 }
-
 /* pricing section ends*/
+
+
+/* footer starts */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+}
+
+footer .left ul {
+  font-size: 1.4rem;
+  font-weight: var(--size-500);
+  line-height: 1.8rem;
+  list-style: none;
+}
+
+footer .left li {
+  margin: 12px 0;
+}
+
+footer .left a {
+  text-decoration: none;
+  color: var(--just-white);
+}
+/* footer ends */
+
+/* Media Queries */
