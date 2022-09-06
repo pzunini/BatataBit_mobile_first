@@ -62,7 +62,7 @@ header figure img {
   margin-top: 40px;
 }
 
-.header__title-container {
+.header-title-container {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
@@ -71,14 +71,14 @@ header figure img {
   text-align: center;
 }
 
-.header__title-container h1 {
+.header-title-container h1 {
   font-size: 2.4rem;
   font-weight: var(--size-700);
   line-height: 2.6rem;
   color: var(--just-white);
 }
 
-.header__title-container p {
+.header-title-container p {
   margin-top: 40px;
   font-size: 1.4rem;
   font-weight: var(--size-500);
@@ -86,7 +86,7 @@ header figure img {
   color: var(--soft-orange);
 }
 
-.header__title-container .header__button {
+.header-title-container .header-button {
   /*Position & box model*/
   position: absolute;
   display: block;
@@ -107,7 +107,7 @@ header figure img {
   border-radius: 4px;
 }
 
-.header__button span {
+.header-button span {
   display: inline-block;
   width: 13px;
   height: 8px;
@@ -124,7 +124,7 @@ main {
   background-color: var(--off-white);
 }
 
-.main__exchange-container {
+.main-exchange-container {
   width: 100%;
   height: auto;
   padding-top: 60px;
@@ -132,14 +132,14 @@ main {
   text-align: center;
 }
 
-.main__exchange-container--title {
+.exchange-container-title {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
   margin: 0 auto;
 }
 
-.main__exchange-container .background-img {
+.main-exchange-container .background-img {
   width: 200px;
   height: 200px;
   margin: 0 auto 50px auto;
@@ -149,7 +149,7 @@ main {
   background-repeat: no-repeat;
 }
 
-.main__exchange-container h2 {
+.main-exchange-container h2 {
   margin-bottom: 30px;
   font-size: 2.4rem;
   font-weight: var(--size-700);
@@ -157,7 +157,7 @@ main {
   color: var(--black);
 }
 
-.main__exchange-container p {
+.main-exchange-container p {
   margin-bottom: 30px;
   font-size: 1.4rem;
   font-weight: var(--size-500);
@@ -169,7 +169,7 @@ main {
 Cryptocurrencies and commissions tables.
 They are the same layout but with minor differences.
 */
-.main__data-table {
+.main-data-table {
   width: 90%;
   min-width: 225px; /*70% * 320px */
   max-width: 500px;
@@ -178,14 +178,14 @@ They are the same layout but with minor differences.
   font-family: 'Inter', 'sans-serif';
 }
 
-.main__data-table .table__title {
+.main-data-table .table-title {
   margin-bottom: 15px;
   font-size: 1.8rem;
   font-weight: var(--size-700);
   line-height: 2.3rem;
 }
 
-.main__data-table .table__data {
+.main-data-table .table-data {
   width: 90%;
   min-width: 225px;
   max-width: 300px;
@@ -193,7 +193,7 @@ They are the same layout but with minor differences.
   margin: 0 auto;
 }
 
-.main__data-table table {
+.main-data-table table {
   width: 100%;
   height: 100%;
   border-radius: 16px;
@@ -201,7 +201,7 @@ They are the same layout but with minor differences.
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.20);
 }
 
-.main__data-table td {
+.main-data-table td {
   width: 50%;
   font-size: 1.4rem;
   font-weight: var(--size-500);
@@ -210,21 +210,21 @@ They are the same layout but with minor differences.
   background-color: var(--just-white);
 }
 
-.main__data-table .table__left div {
+.main-data-table .table-left div {
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: space-between;
 }
 
-.main__data-table .table__left img {
+.main-data-table .table-left img {
   width: 16px;
   height: 16px;
   margin-left: 16px;
   margin-right: 10px;
 }
 
-.main__data-table .table__right .trending {
+.main-data-table .table-right .trending {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -235,20 +235,20 @@ They are the same layout but with minor differences.
   vertical-align: middle;
 }
 
-.main__data-table .trend__down {
+.main-data-table .trend-down {
 
   background-image: url('../assets/icons/trending-down.svg');
 }
 
-.main__data-table .trend__up {
+.main-data-table .trend-up {
   background-image: url('../assets/icons/trending-up.svg');
 }
 
-.main__data-table .currency-title {
+.main-data-table .currency-title {
   color: var(--bitcoin-orange);
 }
 
-.main__currency-table--date {
+.currency-table-date {
   width: max-content;
   height: 24px;
   margin: 10px auto 0;
@@ -257,7 +257,7 @@ They are the same layout but with minor differences.
   border-radius: 6px;
 }
 
-.main__currency-table--date p {
+.currency-table-date p {
   margin: 0 6px;
   font-size: 1rem;
   line-height: 1.4rem;
@@ -265,11 +265,11 @@ They are the same layout but with minor differences.
   font-weight: var(--size-700);
 }
 
-.main__data-table .commissions-title {
+.main-data-table .commissions-title {
   color: var(--secondary-blue);
 }
 
-.main__commissions-table--date {
+.commissions-table-date {
   width: max-content;
   height: 24px;
   margin: 10px auto 0;
@@ -278,7 +278,7 @@ They are the same layout but with minor differences.
   border-radius: 6px;
 }
 
-.main__commissions-table--date p {
+.commissions-table-date p {
   margin: 0 6px;
   font-size: 1rem;
   line-height: 1.4rem;
@@ -289,7 +289,7 @@ They are the same layout but with minor differences.
 
 
 /* Product benefits section */
-.main__product-detail {
+.main-product-detail {
   position: relative;
   width: 100%;
   min-width: 320px;
@@ -298,7 +298,7 @@ They are the same layout but with minor differences.
   background-color: var(--warm-black);
 }
 
-.product-detail--logo {
+.product-detail-logo {
   position: absolute;
   width: 40px;
   height: 25px;
@@ -307,7 +307,7 @@ They are the same layout but with minor differences.
   background-image: url('../assets/icons/batata.svg');
 }
 
-.product-detail--title {
+.product-detail-title {
   width: 90%;
   min-width: 288px;
   height: auto;
@@ -316,7 +316,7 @@ They are the same layout but with minor differences.
   text-align: center;
 }
 
-.product-detail--title h2 {
+.product-detail-title h2 {
   margin-bottom: 20px;
   font-size: 2.4rem;
   font-weight: var(--size-500);
@@ -324,7 +324,7 @@ They are the same layout but with minor differences.
   color: var(--just-white);
 }
 
-.product-detail--title p {
+.product-detail-title p {
   margin-bottom: 20px;
   font-size: 1.4rem;
   font-weight: var(--size-500);
@@ -354,7 +354,7 @@ They are the same layout but with minor differences.
   background-repeat: no-repeat;
 }
 
-.product-card--title {
+.product-card-title {
   margin-bottom: 16px;
   font-size: 1.8rem;
   font-weight: var(--size-500);
@@ -362,7 +362,7 @@ They are the same layout but with minor differences.
   color: var(--just-white);
 }
 
-.product-card--body {
+.product-card-body {
   font-size: 1.4rem;
   font-weight: var(--size-500);
   line-height: 1.8rem;
@@ -388,7 +388,7 @@ They are the same layout but with minor differences.
 
 
 /* picture section */
-.main__img-container {
+.main-img-container {
   position: relative;
   width: 100%;
   min-width: 320px;
@@ -403,7 +403,7 @@ They are the same layout but with minor differences.
   display: block;
 }
 
-.main__img-container h2 {
+.main-img-container h2 {
   position: absolute;
   width: 100%;
   top: 0;
@@ -416,7 +416,7 @@ They are the same layout but with minor differences.
 /* picture section ends*/
 
 /* pricing section */
-.main__plans-container {
+.main-plans-container {
   width: 100%;
   min-width: 320px;
   padding-bottom: 70px;
@@ -447,7 +447,7 @@ They are the same layout but with minor differences.
   color: var(--soft-grey);
 }
 
-.plans-container--slider {
+.plans-container-slider {
   display: flex;
   height: 320px;
   overflow-x: scroll;
@@ -455,15 +455,15 @@ They are the same layout but with minor differences.
   scroll-snap-type: x proximity;
 }
 
-.plans-container--slider::-webkit-scrollbar {
+.plans-container-slider::-webkit-scrollbar {
   height: 3px;
 }
 
-.plans-container--slider::-webkit-scrollbar-thumb {
+.plans-container-slider::-webkit-scrollbar-thumb {
   background-color: var(--bitcoin-orange);
 }
 
-.plans-container--card {
+.plans-container-card {
   position: relative;
   scroll-snap-align: center;
   width: 60%;
@@ -501,7 +501,7 @@ They are the same layout but with minor differences.
   background-color: var(--green);
 }
 
-.plan-card--title {
+.plan-card-title {
   padding-top: 40px;
   font-size: 1.4rem;
   font-weight: var(--size-500);
@@ -509,7 +509,7 @@ They are the same layout but with minor differences.
   color: var(--black);
 }
 
-.plan-card--price {
+.plan-card-price {
   padding: 6px 0;
   font-size: 5.2rem;
   font-weight: var(--size-700);
@@ -517,17 +517,17 @@ They are the same layout but with minor differences.
   color: var(--black);
 }
 
-.plan-card--price sup {
+.plan-card-price sup {
   font-size: 2.0rem;
 }
 
-.plan-card--saving {
+.plan-card-saving {
   font-size: 1.2rem;
   color: var(--soft-grey);
   margin-bottom: 35px;
 }
 
-.plan-card--action {
+.plan-card-action {
   width: 128px;
   height: 48px;
   font-size: 1.4rem;
@@ -553,7 +553,7 @@ They are the same layout but with minor differences.
   color: var(--green);
 }
 
-.plan-card--action span {
+.plan-card-action span {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -590,5 +590,3 @@ footer .left a {
   color: var(--just-white);
 }
 /* footer ends */
-
-/* Media Queries */

@@ -5,7 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BatataBit Exchange</title>
+
+  <!-- css styles -->
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/tablet.css" media="(min-width:930px)">
+
+  <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Roboto:wght@400;500;700&display=swap"
@@ -16,140 +21,153 @@
     <figure>
       <img src="./assets/imgs/logo.svg" alt="">
     </figure>
-    <div class="header__title-container">
+    <div class="header-title-container">
       <h1>The next revolution in cryptocurrency exchange.</h1>
       <p>Batatabit helps you navigate between different prices and trends.</p>
-      <a href="#plans" class="header__button">More About Our Plans<span></span></a>
+      <a href="#plans" class="header-button">More About Our Plans<span></span></a>
     </div>
   </header>
   <main>
     <!--exchange section-->
-    <section class="main__exchange-container">
+    <section class="main-exchange-container">
 
       <div class="background-img"></div>
-      <div class="main__exchange-container--title">
+      <div class="exchange-container-title">
         <h2>We make all exchange rates visible</h2>
         <p>We bring real time information of the most important exchange and currencies in the world.</p>
       </div>
 
-      <!--crypto prices table-->
-      <section class="main__currencies-container">
-        <div class="main__data-table">
-          <p class="table__title currency-title">Cryptocurrencies</p>
-          <div class="table__data">
-            <table>
-              <tr>
-                <td class="table__left">
-                  <div>
-                    <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Bitcon logo">
-                    <span>Bitcoin</span>
-                  </div>
-                </td>
-                <td class="table__right">$21389.28
-                  <span class="trending trend__up"></span></td>
-              </tr>
-              <tr>
-                <td class="table__left">
-                  <div>
-                    <img src="https://assets.coingecko.com/coins/images/279/thumb/ethereum.png?1595348880" alt="Ethereum logo">
-                    <span>Ethereum</span>
-                  </div>
-                </td>
-                <td class="table__right">$1242.70
-                  <span class="trending trend__down"></span></td>
-              </tr>
-              <tr>
-                <td class="table__left">
-                  <div>
-                    <img src="https://assets.coingecko.com/coins/images/975/thumb/cardano.png?1547034860" alt="Cardano logo">
-                    <span>Cardano</span>
-                  </div>
-                </td>
-                <td class="table__right">$0.505838
-                  <span class="trending trend__up"></span></td>
-              </tr>
-              <tr>
-                <td class="table__left">
-                  <div>
-                    <img src="https://assets.coingecko.com/coins/images/4713/thumb/matic-token-icon.png?1624446912" alt="Matic logo">
-                    <span>Polygon</span>
-                  </div>
-                </td>
-                <td class="table__right">$0.598653
-                  <span class="trending trend__down"></span></td>
-              </tr>
-            </table>
+      <section class="exchange-tables-container">
+        <!--crypto prices table-->
+        <section class="main-currencies-container">
+          <div class="main-data-table">
+            <p class="table-title currency-title">Cryptocurrencies</p>
+            <div class="table-data">
+              <table>
+                <tr>
+                  <td class="table-left">
+                    <div>
+                      <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Bitcon logo">
+                      <span>Bitcoin</span>
+                    </div>
+                  </td>
+                  <td class="table-right">$21389.28
+                    <span class="trending trend-up"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-left">
+                    <div>
+                      <img src="https://assets.coingecko.com/coins/images/279/thumb/ethereum.png?1595348880"
+                        alt="Ethereum logo">
+                      <span>Ethereum</span>
+                    </div>
+                  </td>
+                  <td class="table-right">$1242.70
+                    <span class="trending trend-down"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-left">
+                    <div>
+                      <img src="https://assets.coingecko.com/coins/images/975/thumb/cardano.png?1547034860" alt="Cardano logo">
+                      <span>Cardano</span>
+                    </div>
+                  </td>
+                  <td class="table-right">$0.505838
+                    <span class="trending trend-up"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-left">
+                    <div>
+                      <img src="https://assets.coingecko.com/coins/images/4713/thumb/matic-token-icon.png?1624446912"
+                        alt="Matic logo">
+                      <span>Polygon</span>
+                    </div>
+                  </td>
+                  <td class="table-right">$0.598653
+                    <span class="trending trend-down"></span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="currency-table-date">
+              <p>Updated on 07/07/2022 @ 20:00h</p>
+            </div>
           </div>
-          <div class="main__currency-table--date">
-            <p>Updated on 07/07/2022 @ 20:00h</p>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!--commissions table-->
-      <section class="main__commissions-container">
-        <div class="main__data-table">
-          <p class="table__title commissions-title">Commissions</p>
-          <div class="table__data">
-            <table>
-              <tr>
-                <td class="table__left">
-                  <div>
-                    <img src="./assets/icons/batata.svg" alt="batatabit logo">
-                    <span>BatataBit</span>
-                  </div>
-                </td>
-                <td class="table__rightt">0.0001 BTC
-                </td>
-              </tr>
-              <tr>
-                <td class="table__left">
-                  <div>
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2018%2F04%2FBinance_logo_coin-136x136.png&f=1&nofb=1" alt="binance logo">
-                    <span>Binance</span>
-                  </div>
-                </td>
-                <td class="table__right">0.0005 BTC
-                  <span class=""></span>
-                </td>
-              </tr>
-              <tr>
-                <td class="table__left">
-                  <div>
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcryptologos.cc%2Flogos%2Fftx-token-ftt-logo.png&f=1&nofb=1" alt="FTX logo">
-                    <span>FTX</span>
-                  </div>
-                </td>
-                <td class="table__right">0.0003 BTC
-                  <span class=""></span>
-                </td>
-              </tr>
-              <tr>
-                <td class="table__left">
-                  <div>
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Fblockchain-classic%2F256%2FKuCoin_Shares-512.png&f=1&nofb=1"
-                      alt="KuCoin logo">
-                    <span>KuCoin</span>
-                  </div>
-                </td>
-                <td class="table__right">0.0003 BTC
-                  <span class=""></span>
-                </td>
-              </tr>
-            </table>
+        <!--commissions table-->
+        <section class="main-commissions-container">
+          <div class="main-data-table">
+            <p class="table-title commissions-title">Commissions</p>
+            <div class="table-data">
+              <table>
+                <tr>
+                  <td class="table-left">
+                    <div>
+                      <img src="./assets/icons/batata.svg" alt="batatabit logo">
+                      <span>BatataBit</span>
+                    </div>
+                  </td>
+                  <td class="table-rightt">0.0001 BTC
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-left">
+                    <div>
+                      <img
+                        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2018%2F04%2FBinance_logo_coin-136x136.png&f=1&nofb=1"
+                        alt="binance logo">
+                      <span>Binance</span>
+                    </div>
+                  </td>
+                  <td class="table-right">0.0005 BTC
+                    <span class=""></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-left">
+                    <div>
+                      <img
+                        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcryptologos.cc%2Flogos%2Fftx-token-ftt-logo.png&f=1&nofb=1"
+                        alt="FTX logo">
+                      <span>FTX</span>
+                    </div>
+                  </td>
+                  <td class="table-right">0.0003 BTC
+                    <span class=""></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-left">
+                    <div>
+                      <img
+                        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Fblockchain-classic%2F256%2FKuCoin_Shares-512.png&f=1&nofb=1"
+                        alt="KuCoin logo">
+                      <span>KuCoin</span>
+                    </div>
+                  </td>
+                  <td class="table-right">0.0003 BTC
+                    <span class=""></span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="commissions-table-date">
+              <p>Updated on 07/07/2022 @ 20:00h</p>
+            </div>
           </div>
-          <div class="main__commissions-table--date">
-            <p>Updated on 07/07/2022 @ 20:00h</p>
-          </div>
-        </div>
+        </section>
       </section>
     </section>
 
     <!--product benefits section-->
-    <section class="main__product-detail">
-      <span class="product-detail--logo">
+    <section class="main-product-detail">
+      <span class="product-detail-logo">
       </span>
-      <div class="product-detail--title">
+      <div class="product-detail-title">
         <h2>We have created a unique product.</h2>
         <p>Reliable and designed for daily use.</p>
       </div>
@@ -157,33 +175,33 @@
       <section class="product-card-container">
         <article class="product-card">
           <span class="clock-icon icon-card"></span>
-          <p class="product-card--title">Real Time</p>
-          <p class="product-card--body">Our API takes minute-by-minute information on the rates that most determine behavior.</p>
+          <p class="product-card-title">Real Time</p>
+          <p class="product-card-body">Our API takes minute-by-minute information on the rates that most determine behavior.</p>
         </article>
 
         <article class="product-card">
           <span class="eye-icon icon-card"></span>
-          <p class="product-card--title">No Hidden Fees</p>
-          <p class="product-card--body">Batatabit always shows you the real cost of what you are purchasing.</p>
+          <p class="product-card-title">No Hidden Fees</p>
+          <p class="product-card-body">Batatabit always shows you the real cost of what you are purchasing.</p>
         </article>
 
         <article class="product-card">
           <span class="dolar-icon icon-card"></span>
-          <p class="product-card--title">Compare Cryptos</p>
-          <p class="product-card--body">No more rumors, with Batatabit you will know the real value of each coin in the current market.</p>
+          <p class="product-card-title">Compare Cryptos</p>
+          <p class="product-card-body">No more rumors, with Batatabit you will know the real value of each coin in the current market.</p>
         </article>
 
         <article class="product-card">
           <span class="check-icon icon-card"></span>
-          <p class="product-card--title">Reliable Information</p>
-          <p class="product-card--body">Our sources are 100% verified and we continue to audit their content as they are updated.
+          <p class="product-card-title">Reliable Information</p>
+          <p class="product-card-body">Our sources are 100% verified and we continue to audit their content as they are updated.
           </p>
         </article>
       </section>
     </section>
 
     <!--picture section-->
-    <section class="main__img-container">
+    <section class="main-img-container">
       <picture class="bitcoin-img">
         <source media="(min-width: 1024px)" srcset="./assets/imgs/bitcoinbaby3x.png">
         <source media="(min-width: 768px)" srcset="./assets/imgs/bitcoinbaby2x.png">
@@ -193,41 +211,41 @@
     </section>
 
     <!--pricing section-->
-    <section class="main__plans-container" id="plans">
+    <section class="main-plans-container" id="plans">
 
       <div class="plans-title">
         <h2>Choose the plan that suits you best!</h2>
         <p>Different plans give you access to different content.</p>
       </div>
 
-      <section class="plans-container--slider">
-        <article class="plans-container--card">
+      <section class="plans-container-slider">
+        <article class="plans-container-card">
           <p class="plans-recommended basic-plan">Basic</p>
-          <div class="plan-card--container">
-            <h3 class="plan-card--title">Monthly Subscription</h3>
-            <p class="plan-card--price"><sup>$</sup>9<sup>99</sup></p>
-            <p class="plan-card--saving">No annual payment</p>
-            <button class="plan-card--action buy-basic-button">Buy Now<span></span></button>
+          <div class="plan-card-container">
+            <h3 class="plan-card-title">Monthly Subscription</h3>
+            <p class="plan-card-price"><sup>$</sup>9<sup>99</sup></p>
+            <p class="plan-card-saving">No annual payment</p>
+            <button class="plan-card-action buy-basic-button">Buy Now<span></span></button>
           </div>
         </article>
 
-        <article class="plans-container--card">
+        <article class="plans-container-card">
           <p class="plans-recommended recommended-plan">Recommended</p>
-          <div class="plan-card--container">
-            <h3 class="plan-card--title">Annual Subscription</h3>
-            <p class="plan-card--price"><sup>$</sup>99</p>
-            <p class="plan-card--saving">You save $20 with this plan!</p>
-            <button class="plan-card--action buy-recommended-button">Buy Now<span></span></button>
+          <div class="plan-card-container">
+            <h3 class="plan-card-title">Annual Subscription</h3>
+            <p class="plan-card-price"><sup>$</sup>99</p>
+            <p class="plan-card-saving">You save $20 with this plan!</p>
+            <button class="plan-card-action buy-recommended-button">Buy Now<span></span></button>
           </div>
         </article>
 
-        <article class="plans-container--card">
+        <article class="plans-container-card">
           <p class="plans-recommended exclusive-plan">Exclusive</p>
-          <div class="plan-card--container">
-            <h3 class="plan-card--title">VIP Access</h3>
-            <p class="plan-card--price"><sup>$</sup>499</p>
-            <p class="plan-card--saving">Lifetime exclusive content!</p>
-            <button class="plan-card--action buy-exclusive-button">Buy Now<span></span></button>
+          <div class="plan-card-container">
+            <h3 class="plan-card-title">VIP Access</h3>
+            <p class="plan-card-price"><sup>$</sup>499</p>
+            <p class="plan-card-saving">Lifetime exclusive content!</p>
+            <button class="plan-card-action buy-exclusive-button">Buy Now<span></span></button>
           </div>
         </article>
       </section>
