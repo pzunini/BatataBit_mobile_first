@@ -1,3 +1,6 @@
 *.svg
 *.png
 *.jpg
+
+#ignore hole assets folder
+assets
