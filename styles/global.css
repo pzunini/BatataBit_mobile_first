@@ -1,0 +1,47 @@
+/*
+CSS rules order:
+1. Position
+2. Box model
+3. Typography
+4. Visual effects
+5. Miscellaneus
+*/
+
+:root {
+  /* Typography */
+  --size-300: 300;
+  --size-400: 400;
+  --size-500: 500;
+  --size-700: 700;
+
+  /* Colors */
+  --background: #E5E5E5;
+  --bitcoin-orange: #F7931A;
+  --green: #14AA78;
+  --soft-orange: #FFE9D5;
+  --secondary-blue: #1A9AF7;
+  --soft-blue: #E7F5FF;
+  --warm-black: #201E1C;
+  --black: #282623;
+  --grey: #BABABA;
+  --soft-grey: #454545;
+  --off-white: #FAF8F7;
+  --just-white: #FFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
