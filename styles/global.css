@@ -37,8 +37,7 @@ CSS rules order:
 
 html {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Noto-sans', sans-serif;
   scroll-behavior: smooth;
 }
 
